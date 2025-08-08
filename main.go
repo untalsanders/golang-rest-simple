@@ -116,7 +116,7 @@ func updateTask(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func main() {
+func Main() {
 	router := mux.NewRouter().StrictSlash(true)
 
 	router.HandleFunc("/", indexRoute)
