@@ -1,0 +1,33 @@
+### Read all tasks
+GET http://localhost:3500/tasks
+Content-Type: application/json
+
+
+### Read a task by ID
+GET http://localhost:3500/tasks/3
+Content-Type: application/json
+
+
+### Create a task
+POST http://localhost:3500/tasks
+Content-Type: application/json
+
+{
+  "Name": "Learn Julia",
+  "Content": "Learn Julia programming language"
+}
+
+
+### Update a task
+PUT  http://localhost:3500/tasks/3
+Content-Type: application/json
+
+{
+    "Name": "Learn Java",
+    "Content": "Learn Java programming language"
+}
+
+
+### Delete a task
+DELETE  http://localhost:3500/tasks/2
+Content-Type: application/json
