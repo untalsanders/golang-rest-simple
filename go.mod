@@ -1,4 +1,4 @@
-module github.com/untalsanders/golang-rest-simple
+module golang-rest-simple
 
 go 1.24.5
 
